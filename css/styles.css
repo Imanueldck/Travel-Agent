@@ -1,0 +1,86 @@
+/* Custom CSS for Navbar */
+.navbar {
+  background-color: #265073;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: aliceblue;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  margin-right: 10px;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.judul {
+  text-align: center;
+  margin-top: 95px;
+  padding: 15px;
+}
+.judul h1 {
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.judul h3 {
+  margin-top: 40px;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+}
+
+.testimoni {
+  padding: 16px;
+  margin: 15px;
+}
+
+/* Custom CSS for Travel Agent Section */
+.travel-agent-section {
+  padding: 50px 0;
+}
+
+.banner img {
+  max-width: 100%;
+}
+
+.booking-form {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.booking-form h2 {
+  margin-bottom: 20px;
+}
+
+.mustknow img {
+  max-width: 100%;
+  max-height: 50px;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mustknow .card {
+  padding: 8px;
+  max-width: auto;
+  max-height: 500px;
+}
+footer {
+  background-color: steelblue;
+}
